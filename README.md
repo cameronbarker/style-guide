@@ -2,8 +2,8 @@
 
 The goal is to give all projects the same layer of design.
 
-
 ## Set up
+
 ```
 <link
   rel="stylesheet"
@@ -17,4 +17,12 @@ The goal is to give all projects the same layer of design.
   rel="stylesheet"
   href="https://gitcdn.link/repo/cameronbarker/style-guide/master/splt-theme.css"
 />
+
+<style>
+  html, body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+</style>
 ```
