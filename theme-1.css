@@ -302,6 +302,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
+  color: inherit;
   outline: 0;
   opacity: 0.8;
 }
