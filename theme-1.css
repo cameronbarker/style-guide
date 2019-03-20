@@ -330,6 +330,10 @@ input[type="button"].btn-primary:focus {
   border-color: #4183c4;
 }
 
+.btn--ghost {
+  border: 1px solid #333;
+}
+
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
