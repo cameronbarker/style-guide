@@ -278,11 +278,12 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 40px;
+  height: 36px;
   padding: 0 30px;
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
+  font-weight: 700;
   line-height: 40px;
   text-decoration: none;
   white-space: nowrap;
@@ -290,8 +291,6 @@ input[type="button"] {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 .btn:hover,
 button:hover,
