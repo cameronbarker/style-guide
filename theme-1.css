@@ -267,7 +267,8 @@ a {
   color: #4183c4;
 }
 a:hover {
-  color: #0fa0ce;
+  color: inherit;
+  opacity: 0.8;
 }
 
 /* Buttons
