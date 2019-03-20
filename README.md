@@ -15,6 +15,6 @@ The goal is to give all projects the same layer of design.
 />
 <link
   rel="stylesheet"
-  href="https://raw.githubusercontent.com/cameronbarker/style-guide/master/splt-theme.css"
+  href="https://gitcdn.link/repo/cameronbarker/style-guide/master/splt-theme.css"
 />
 ```
