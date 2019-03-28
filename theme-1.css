@@ -191,7 +191,7 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-weight: 400;
   /* font-family: "Merriweather", serif; */
 }
@@ -260,6 +260,9 @@ p {
 .font--center {
   text-align: center;
 }
+.font--right {
+  text-align: right;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -268,7 +271,7 @@ a {
 }
 a:hover {
   color: inherit;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 /* Buttons
@@ -306,7 +309,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   color: inherit;
   outline: 0;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .btn.btn-primary,
 button.btn-primary,
@@ -442,6 +445,13 @@ form {
   float: left;
 }
 
+/* Imagery
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.c-img--full {
+  width: 100%;
+}
+
 /* Display
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -473,19 +483,34 @@ hr {
 }
 
 .mt-1 {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .mt-2 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .mt-3 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .mt-4 {
   margin-top: 2.5rem;
 }
 .mt-5 {
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2.5rem;
+}
+.mb-5 {
+  margin-bottom: 4rem;
 }
 
 /* Components
