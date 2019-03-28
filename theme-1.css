@@ -168,10 +168,10 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 body {
-  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.6em !important; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.7;
   font-weight: 400;
   font-family: Helvetica, Arial, sans-serif;
@@ -338,6 +338,10 @@ input[type="button"].btn-primary:focus {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+input,
+select {
+  font-size: 1.6rem;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
